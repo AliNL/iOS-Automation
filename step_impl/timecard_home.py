@@ -4,8 +4,6 @@ import time
 from getgauge.python import *
 from step_impl.support import swipe_to
 
-driver = None
-
 
 @before_spec
 def device_set_up():
